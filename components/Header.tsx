@@ -7,7 +7,7 @@ export default function Header() {
       {/* hidden checkbox to control mobile menu via Tailwind peer utilities */}
       <input id="nav-toggle" type="checkbox" className="peer sr-only" />
 
-      <div className="flex justify-between items-center px-5 text-white">
+      <div className="flex justify-between items-center px-5 text-background">
         <div className="text-xl font-bold hover:text-accent">
             Will&apos;s Portfolio
         </div>
@@ -47,17 +47,17 @@ export default function Header() {
         {/* desktop links */}
         <ul className="hidden md:flex gap-4">
         <li>
-          <Link href="/" className="hover:text-accent">
+          <Link href="/" className="hover:text-accent px-2">
             Home
           </Link>
         </li>
         <li>
-          <Link href="/resume" className="hover:text-accent">
+          <Link href="/resume" className="hover:text-accent px-2">
             Resume
           </Link>
         </li>
         <li>
-          <Link href="/projects" className="hover:text-accent">
+          <Link href="/projects" className="hover:text-accent px-2">
             Projects
           </Link>
         </li>
@@ -66,19 +66,19 @@ export default function Header() {
 
       {/* mobile menu (visible when checkbox is checked) */}
       <div className="peer-checked:block md:hidden hidden px-5 pb-4">
-        <ul className="flex flex-col gap-2 text-white">
+        <ul className="flex flex-col gap-2 text-white hover:text-accent">
         <li>
-          <Link href="/" className="block w-full py-2 rounded hover:bg-white/5">
+          <Link href="/" className="block w-full py-2 rounded hover:bg-background/5">
             Home
           </Link>
         </li>
         <li>
-          <Link href="/resume" className="block w-full py-2 rounded hover:bg-white/5">
+          <Link href="/resume" className="block w-full py-2 rounded hover:bg-background/5">
             Resume
           </Link>
         </li>
         <li>
-          <Link href="/projects" className="block w-full py-2 rounded hover:bg-white/5">
+          <Link href="/projects" className="block w-full py-2 rounded hover:bg-background/5">
             Projects
           </Link>
         </li>
