@@ -13,4 +13,5 @@ const Container: React.FC<ContainerProps> = ({ children, className }) => {
   );
 };
 
+Container.displayName = 'Container';
 export default Container;

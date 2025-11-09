@@ -7,7 +7,7 @@ export default function Header() {
       {/* hidden checkbox to control mobile menu via Tailwind peer utilities */}
       <input id="nav-toggle" type="checkbox" className="peer sr-only" />
 
-      <div className="flex justify-between items-center px-5 text-background">
+      <div className="flex justify-between items-center px-5 text-white">
         <div className="text-xl font-bold hover:text-accent">
             Will&apos;s Portfolio
         </div>
@@ -66,19 +66,19 @@ export default function Header() {
 
       {/* mobile menu (visible when checkbox is checked) */}
       <div className="peer-checked:block md:hidden hidden px-5 pb-4">
-        <ul className="flex flex-col gap-2 text-white hover:text-accent">
+        <ul className="flex flex-col gap-2 text-white">
         <li>
-          <Link href="/" className="block w-full py-2 rounded hover:bg-background/5">
+          <Link href="/" className="block w-full py-2 rounded hover:bg-background/5 hover:text-accent">
             Home
           </Link>
         </li>
         <li>
-          <Link href="/resume" className="block w-full py-2 rounded hover:bg-background/5">
+          <Link href="/resume" className="block w-full py-2 rounded hover:bg-background/5 hover:text-accent">
             Resume
           </Link>
         </li>
         <li>
-          <Link href="/projects" className="block w-full py-2 rounded hover:bg-background/5">
+          <Link href="/projects" className="block w-full py-2 rounded hover:bg-background/5 hover:text-accent">
             Projects
           </Link>
         </li>
