@@ -9,7 +9,7 @@ interface BadgeProps {
 
 const Badge: React.FC<BadgeProps> = ({ children, className, id, title }) => {
   return (
-    <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-accent text-primary ${className}`}
+    <span className={`inline-flex items-center px-3 py-1 rounded-full text-md font-thin bg-accent text-foreground ${className}`}
     id={`badge-${id}`}
     title={title}>
       {children}
