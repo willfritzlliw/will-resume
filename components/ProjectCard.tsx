@@ -13,7 +13,7 @@ interface ProjectCardProps {
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, techStack, demoLink, repoLink }) => {
   return (
-    <Card className="mb-6">
+    <Card className="mb-6 hover:shadow-lg transition-all duration-300 hover:scale-105">
       <h3 className="text-xl font-semibold text-foreground mb-2">{title}</h3>
       <p className="text-foreground mb-4">{description}</p>
       <div className="flex flex-wrap gap-2 mb-4">
@@ -28,7 +28,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, techStack
           </Link>
         )}
         {repoLink && (
-          <Link href={repoLink} target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
+          <Link href={repoLink} target="_blank" rel="noopener noreferrer" className="text-primary font-bold hover:underline">
             Repository
           </Link>
         )}
