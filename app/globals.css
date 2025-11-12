@@ -4,11 +4,11 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --primary: #80A1BA;
-  --primary-hover: #6E8C9A;
+  --primary: #2a8f47;
+  --primary-hover: #789a6e;
   --secondary: #91C4C3;
   --secondary-hover: #7DAEAD;
-  --accent: #B4DEBD;
+  --accent: #bff1cb;
   --accent-hover: #A1CFAF; 
 }
 
