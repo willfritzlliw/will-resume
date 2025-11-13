@@ -6,10 +6,11 @@ interface ButtonProps {
   size?: 'small' | 'medium' | 'large';
   href?: string;
   children: React.ReactNode;
+  customClassName?: string;
   onClick?: () => void;
 }
 
-const Button: React.FC<ButtonProps> = ({ variant = 'primary', size = 'medium', href, children, onClick }) => {
+const Button: React.FC<ButtonProps> = ({ variant = 'primary', size = 'medium', href, children, customClassName = "", onClick }) => {
   const baseStyles = 'font-semibold rounded-md transition-colors duration-200';
   
   const variantStyles = {
@@ -24,7 +25,7 @@ const Button: React.FC<ButtonProps> = ({ variant = 'primary', size = 'medium', h
     large: 'px-6 py-3 text-lg',
   };
 
-  const classes = `${baseStyles} ${variantStyles[variant]} ${sizeStyles[size]}`;
+  const classes = `${baseStyles} ${variantStyles[variant]} ${sizeStyles[size]} ${customClassName}`;
 
   if (href) {
     return (

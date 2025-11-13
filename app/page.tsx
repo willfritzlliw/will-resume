@@ -19,6 +19,14 @@ export default function Resume() {
   return (
     <main className="bg-background text-foreground">
       <Container className="max-w-7xl mx-auto">
+        <div className="flex flex-row items-center justify-center text-center gap-8 mx-auto my-5">
+          <Button href="https://www.linkedin.com/in/william-fritz-434b878b/" variant="primary" size="large" customClassName="flex hover:scale-105 px-8 transition-transform">
+            LinkedIn
+          </Button>
+          <Button href="https://github.com/willfritzlliw" variant="secondary" size="large" customClassName="flex px-8 hover:scale-105 transition-transform">
+            GitHub
+          </Button>
+        </div>
         <Section id="Bio" title="Bio">
           {/* Responsive personal profile */}
           <Card className="flex flex-col md:flex-row gap-8 items-center">
@@ -29,7 +37,7 @@ export default function Resume() {
               alt="Profile Picture"
               width={150}
               height={150}
-              className="rounded-full mx-auto"
+              className="rounded-full mx-auto hover:scale-120 hover:shadow-xl transition-transform"
               priority />
             </div>
             {/* Content container */}
