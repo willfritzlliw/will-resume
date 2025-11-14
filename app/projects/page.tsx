@@ -2,6 +2,12 @@ import ProjectCard from "@/components/ProjectCard";
 import Container from "@/components/Container";
 import Section from "@/components/Section";
 import projects from "./data";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Projects",
+  description: "A collection of projects by Will Fritz.",
+};
 
 
 export default function Projects() {

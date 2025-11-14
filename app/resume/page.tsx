@@ -1,5 +1,11 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Resume",
+  description: "Download Will Fritz's resume in PDF format.",
+};
 
 export default function ResumePage() {
   return (

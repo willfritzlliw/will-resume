@@ -1,13 +1,25 @@
 export const experiences = [
             {
+              company: "Gulfstream Aerospace",
+              title: "IT Risk Management Analyst Intern",
+              dateRange: "2022",
+              responsibilities: [
+                "Executed daily cybersecurity and risk management tasks, including vulnerability scanning and compliance assessments.",
+                "Implemented remediation projects to mitigate identified risks and analyzed data to track risk reduction over time.",
+                "Ensured company-wide compliance readiness for key regulatory frameworks, including GDPR and SOC.",
+                "Used Power BI for in-depth data analysis and presented findings on the company's cybersecurity risk posture to stakeholders.",
+                "Monitored network security using enterprise network security software and ensured readiness for upcoming cybersecurity and SOC audits."
+              ]
+            },
+            {
               company: "Fritz Consulting LLC",
               title: "IT Consultant / Marketing Technologist / Web Developer",
               dateRange: "2024 - Present",
               responsibilities: [
                 "After implementing an ERP software solution, the monthly throughput of my client's business increased 400%.",
                 "Using Cloudways' cloud service and Digital Ocean, I developed and deployed WordPress and Django websites for clients.",
-                "Working with clients to build websites, optimize systems, and integrate manual processes with software.",
-                "Creating WordPress websites, optimizing for SEO, implementing e-commerce, and conducting maintenance.",
+                "Working with clients to build websites, optimize systems, and integrate manual processes with automation.",
+                "Creating WordPress websites, optimizing for SEO, deploying on the cloud, and conducting maintenance.",
                 "Set up on-site IT infrastructure for local small businesses, including Wi-Fi, Ethernet connections, and security systems",
                 "Created SOPs for clients to help standardize and optimize IT and marketing processes.",
                 "Managing all aspects of a small business, including technology implementations, sales, marketing, and customer relations."
@@ -19,25 +31,13 @@ export const experiences = [
               dateRange: "2022 - 2024",
               responsibilities: [
                 "Given a business objective, gathered stakeholder requirements and key features needed.",
-                "Using stakeholder requirements, designed, prototyped, and deployed internal web applications",
+                "Using stakeholder requirements, designed, prototyped, and deployed automations, ETL/data analytics, and internal web applications",
                 "Used GitHub, Git, Docker, and webhooks with Docker Hub in order to implement CI/CD",
                 "Acted as the bridge between the C-Suite and the IT department.",
-                "Used Python to automate repetitive Google Sheet data entry and actions.",
-                "Designed and developed internal web applications using Python, Django, HTML, CSS, and JavaScript.",
-                "Created custom scripts and themes for Shopify.",
+                "Used Python and pandas to automate repetitive Google Sheet (using API connections and Oauth) data entry and actions.",
+                "Designed and developed internal web applications using Python, Django, fastAPI, React, and JavaScript.",
+                "Created custom scripts and themes for Shopify, as well as implementing custom tracking and analytics.",
                 "Automated repetitive business activities using Google Sheets API. Pulled data from SAP, cleaned and performed the business action using Python, and filled the Google Sheets via API calls."
-              ]
-            },
-            {
-              company: "Gulfstream Aerospace",
-              title: "IT Risk Management Analyst Intern",
-              dateRange: "2022",
-              responsibilities: [
-                "Executed daily cybersecurity and risk management tasks, including vulnerability scanning and compliance assessments.",
-                "Implemented remediation projects to mitigate identified risks and analyzed data to track risk reduction over time.",
-                "Ensured company-wide compliance readiness for key regulatory frameworks, including GDPR and SOC.",
-                "Used Power BI for in-depth data analysis and presented findings on the company's cybersecurity risk posture to stakeholders.",
-                "Monitored network security using enterprise network security software and ensured readiness for upcoming cybersecurity and SOC audits."
               ]
             },
             {

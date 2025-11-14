@@ -8,6 +8,13 @@ import Hero from '@/components/Hero';
 import ExperienceCard from '@/components/ExperienceCard';
 import Image from 'next/image';
 import { experiences, education } from './data';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Will Fritz's Resume",
+  description:
+    "The official resume website for Will Fritz, a software developer and IT professional. Explore Will's projects, experience, and skills.",
+};
 
 
 export default function Resume() {
@@ -43,21 +50,21 @@ export default function Resume() {
             {/* Content container */}
             <div className="w-full md:w-2/3">
               <p className="text-lg text-foreground leading-relaxed">
-                  <span className="font-semibold  text-glow">Full-stack developer</span> and software systems architect with 
+                  <span className="font-semibold  text-glow">Cloud Developer</span> and software systems architect with 
                   <span className="font-semibold  text-glow"> 6+ years of experience</span> bridging technical solutions with business outcomes. 
                   Proven track record of delivering 
-                  <span className="font-semibold  text-glow"> web applications, automations</span>, implementing 
+                  <span className="font-semibold  text-glow"> automations, software, solutions</span>, implementing 
                   <span className="font-semibold  text-glow"> business applications</span>, working with 
                   <span className="font-semibold  text-glow"> cloud infrastructure</span>, and making 
                   non-biased business-objective based technology stack decisions. drove a 
                   <span className="font-semibold  text-glow"> 400% production output increase</span> through strategic ERP implementation. 
                   Combines software development expertise across  
-                    <span className="font-semibold text-glow"> Python, Django, Flask, FastAPI, SQL, Pandas, APIs, Git, Docker, Automation, React, Next.js, 
-                    TypeScript, JavaScript, HTML5, CSS3, Cloud (AWS, Digital Ocean), Node.js
+                    <span className="font-semibold text-glow"> Python, Django, FastAPI, Cloud, SQL, Pandas, APIs, Git, Docker, Automation, AWS, Next.js, 
+                    TypeScript, JavaScript, ETL, AI, Linux, Cyber Security
                     </span>, and modern IT technologies with understanding of 
                   <span className="font-semibold  "> Cloud deployment</span>, 
                   <span className="font-semibold  text-glow"> CI/CD pipelines</span>, and DevOps practices. 
-                  Veteran with security clearance experience, specializing in transforming complex requirements into 
+                  Military Veteran with security clearance experience, specializing in transforming complex requirements into 
                   <span className="font-semibold  text-glow"> scalable solutions that drive ROI and business objectives</span>.
               </p>
             </div>
