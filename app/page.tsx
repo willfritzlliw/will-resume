@@ -50,7 +50,7 @@ export default function Resume() {
             {/* Content container */}
             <div className="w-full md:w-2/3">
               <p className="text-lg text-foreground leading-relaxed">
-                  <span className="font-semibold  text-glow">Cloud Developer</span> and software systems architect with 
+                  <span className="font-semibold  text-glow">AI/Cloud Developer</span> and software systems architect with 
                   <span className="font-semibold  text-glow"> 6+ years of experience</span> bridging technical solutions with business outcomes. 
                   Proven track record of delivering 
                   <span className="font-semibold  text-glow"> automations, software, solutions</span>, implementing 
