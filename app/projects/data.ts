@@ -11,9 +11,16 @@ export type Project = {
 
 export const projects: Project[] = [
     {
-        id: "handydata",
-        title: "HandyData",
-        repoUrl: "https://github.com/willfritzlliw/HandyData",
+        id: "meal-sync",
+        title: "Meal Sync",
+        repoUrl: "https://github.com/willfritzlliw/meal-sync",
+        shortDescription: "Application for synchronizing and rating meal options with users health goals.",
+        tech: ["React", "TypeScript"],
+    },
+    {
+        id: "PythonHandyDataStructs",
+        title: "Handy Python Data",
+        repoUrl: "https://github.com/willfritzlliw/PythonHandyDataStructs",
         shortDescription: "A collection of handy data utilities and datasets to speed up development and testing.",
         tech: ["Python"],
     },
