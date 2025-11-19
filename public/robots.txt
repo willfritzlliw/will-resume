@@ -1,10 +1,4 @@
 User-agent: *
-Allow: /
+Disallow: /
 
-User-agent: Google-Extended
-Allow: /
-
-User-agent: GPTBot
-Allow: /
-
-Sitemap: https://wills-resume.com/sitemap.xml
+Sitemap: https://willresume.com/sitemap.xml

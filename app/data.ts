@@ -12,7 +12,7 @@ export const experiences = [
               ]
             },
             {
-              company: "Fritz Consulting LLC",
+              company: "Fritz Consulting",
               title: "IT Consultant / Marketing Technologist / Web Developer",
               dateRange: "2024 - Present",
               responsibilities: [
@@ -67,7 +67,7 @@ export const education = [
               ]
             },
             {
-              company: "Kirkwood Community College",
+              company: "Community College",
               title: "Associate of Science in Software Development",
               dateRange: "2013 - 2015",
               responsibilities: [

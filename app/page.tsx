@@ -11,9 +11,9 @@ import { experiences, education } from './data';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Will Fritz's Resume",
+  title: "Wills Resume",
   description:
-    "The official resume website for Will Fritz, a software developer and IT professional. Explore Will's projects, experience, and skills.",
+    "The official resume website for Will, a software developer and IT professional. Explore Will's projects, experience, and skills.",
 };
 
 
@@ -40,7 +40,7 @@ export default function Resume() {
             {/* Image container */}
             <div className="w-full md:w-1/3">
               <Image
-              src="/images/will-fritz-headshot.jpg"
+              src="/images/will-headshot.jpg"
               alt="Profile Picture"
               width={150}
               height={150}
