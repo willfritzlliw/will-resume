@@ -18,10 +18,10 @@ export const metadata: Metadata = {
 
 
 export default function Resume() {
-  const skills = ['Full-Stack','Python','Django','Flask','FastAPI','SQL','Pandas','APIs','Git', 'Docker',
-    'Automation','React','TypeScript','JavaScript','HTML5','CSS3','Cloud',
+  const skills = ['Python','Django','Flask','FastAPI','ETL','LangChain','SQL','Pandas','AI','APIs','Git', 'Docker',
+    'Automation','Full-Stack','React','TypeScript','JavaScript','Cloud Architecture','AWS','Next.js',
     'Node.js','CI/CD','Agile','REST','Microservices', 'PowerBI','PostgreSQL',
-    'Linux','Version Control','Problem-Solving','Communication','Teamwork','Adaptability'];
+    'Linux','Version Control','Problem-Solving','Communication','Teamwork','Adaptability','Business Process Optimization'];
 
   return (
     <main className="bg-background text-foreground">

@@ -15,7 +15,7 @@ export const projects: Project[] = [
         title: "Meal Sync",
         repoUrl: "https://github.com/willfritzlliw/meal-sync",
         shortDescription: "Application for synchronizing and rating meal options with users health goals.",
-        tech: ["React", "TypeScript"],
+        tech: ["Python", "LangChain","FastAPI"],
     },
     {
         id: "PythonHandyDataStructs",
